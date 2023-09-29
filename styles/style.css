@@ -1,4 +1,4 @@
-body, .header {
+body, .header, .main {
 	max-width: 1440px;
 	margin: auto;
 	margin-right: auto;
@@ -53,11 +53,7 @@ body {
 }
 
 .cover {
-	background-image: url(images/cover.jpg);
-	width: 100%;
-	max-height: 757px;
-}
-
-.overlay {
-	
+	height: 757px;
+	background-image: url("../images/cover.jpg");
+	background-repeat: no-repeat;
 }
