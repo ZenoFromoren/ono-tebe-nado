@@ -17,7 +17,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 4px;
+	padding-top: 5px; 
+	padding-bottom: 7px;
 }
 
 .header__links-list {
@@ -36,12 +37,14 @@ body {
 }
 
 .header__logo-image {
+	position: absolute;
+	left: 880px;
+	top: 92px;
 	width: 148px;
 	height: 105px;
-	margin-right: 150px;
 }
 
-.address {
+.header__address {
 	height: 97px;
 	font-style: normal;
 	line-height: 24.3px;
@@ -50,10 +53,54 @@ body {
 .header__link {
 	text-decoration: none;
 	border-bottom: 1px solid;
+	font-style: normal;
 }
 
+.address {
+	font-style: normal;
+}
+
+
 .cover {
+	display: flex;
+	flex-direction: column;
+	position: relative;
 	height: 757px;
 	background-image: url("../images/cover.jpg");
-	background-repeat: no-repeat;
+}
+
+.overlay {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.ono, .tebe, .nado {
+	position: relative;
+	top: 165px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 100px;
+	letter-spacing: 30px;
+	z-index: 1;
+}
+
+.o, .e, .n {
+	position: absolute;
+}
+
+.ono {
+	align-self: start;
+}
+
+.tebe {
+	align-self: center;
+}
+
+.nado {
+	align-self: end;
+}
+
+.o {
+
 }
