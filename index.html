@@ -14,7 +14,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-            <a href="" class="header__link_no_underlined">главная</a>
+            <a href="" class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
             <a href="" class="header__link">посмотреть лоты</a>
@@ -23,25 +23,31 @@
             <a href="" class="header__link">об аукционе</a>
           </li>  
         </ul>
-        <img src="images/logo-black.svg" alt="logo" class="header__logo-image">
-        <div class="header__address">
-          <a href="tel:+9 999 555 5555" class="header__link">+9 999 555 5555</a><br>
-          <a href="mailto:info@sobaka.ge" class="header__link">info@sobaka.ge</a>
-          <address class="address">наб. Принсенграхт 263-265,<br>Амстердам</address>
-        </div>
+        <a class="header__link">
+          <img src="images/logo-black.svg" alt="Логотип" class="header__logo-image">
+        </a>
+        <address class="header__address">
+          <a href="tel:+99995555555" class="header__link">+9 999 555 5555</a><br>
+          <a href="mailto:info@sobaka.ge" class="header__link">
+            info@sobaka.ge
+          </a>
+          <p class="address">наб. Принсенграхт 263-265,</p>
+          <p class="address">Амстердам</p>
+        </address>
       </nav>
     </header>
     <main class="main">
-      <div class="cover">
+      <section class="cover">
         <div class="overlay"></div>
-        <h1 class="ono">О<span class="ls-60">н</span>о</h1>
-        <h1 class="tebe">Те<span class="ls-60">б</span>е</h1>
-        <h1 class="nado"><span class="ls-60">Н</span>адо</h1>
+        <h1 class="cover__title">О<span class="bigger-letter-spacing">н</span>о 
+        те<span class="bigger-letter-spacing">б</span>е 
+        <span class="bigger-letter-spacin">н</span>адо
+        </h1>
         <div class="cover__description">
           <h2 class="cover__description-text">Аукцион вещей, в которые    никто не<span class="cover__description-text-bigger-ws"> верил </span> </h2>
           <button class="bet-button" type="button">Сделать ставку</button>
         </div>
-      </div>
+      </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">

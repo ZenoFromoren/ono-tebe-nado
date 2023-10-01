@@ -51,7 +51,7 @@ body, .header, .main, .footer {
 	font-style: normal;
 }
 
-.header__link_no_underlined {
+.header__link_active {
 	text-decoration: none;
 }
 
