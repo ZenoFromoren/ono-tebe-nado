@@ -85,22 +85,58 @@ body {
 	z-index: 1;
 }
 
-.o, .e, .n {
-	position: absolute;
+.ls-60 {
+	letter-spacing: 60px;
 }
 
 .ono {
 	align-self: start;
+	left: 50px;
 }
 
 .tebe {
 	align-self: center;
+	top: 174px;
+	right: 15px
 }
 
 .nado {
 	align-self: end;
+	top: 178px;
+	right: 20px;
 }
 
-.o {
+.cover__description {
+	display: flex;
+	align-self: end;
+	bottom: 57px;
+	right: 163px;
+}
 
+.cover__description-text, .bet-button {
+	position: absolute;
+	text-transform: uppercase;
+	color: white;
+	font-weight: normal;
+	font-size: 22px;
+	word-spacing: 17px;
+	z-index: 1;
+	bottom: 63px;
+	right: 386px;
+}
+
+.cover__description-text-bigger-ws {
+	word-spacing: 20px;
+}
+
+.bet-button {
+	position: absolute;
+	padding: 12px 30px;
+	max-width: 257px;
+	max-height: 52px;
+	background-color: transparent;
+	word-spacing: 1px;
+	bottom: 50px;
+	right: 50px;
+	border: 1px solid white;
 }
