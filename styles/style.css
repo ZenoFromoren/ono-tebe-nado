@@ -40,6 +40,7 @@ body, .header, .main, .footer {
 .header__address, .footer__address {
 	font-style: normal;
 	line-height: 24.3px;
+	max-width: 240px;
 }
 
 .header__link {
@@ -77,7 +78,7 @@ body, .header, .main, .footer {
 	flex-direction: column;
 }
 
-.align-top-text, .align-center-text, .align-bottom-text {
+.aligned-text, .aligned-text_center, .aligned-text_right {
 	position: relative;
 	text-transform: uppercase;
 	color: white;
@@ -87,25 +88,25 @@ body, .header, .main, .footer {
 	z-index: 1;
 }
 
-.align-top-text {
+.aligned-text {
 	align-self: start;
 	margin-top: 165px;
 	margin-left: 50px;
 }
 
-.align-center-text {
+.aligned-text_center {
 	align-self: center;
 	margin-top: 9px;
 	margin-right: 30px;
 }
 
-.align-bottom-text {
+.aligned-text_right {
 	align-self: end;
 	margin-top: 3px;
 	margin-right: 20px;
 }
 
-.different-letter-spacing {
+.letter-spacing-extended {
 	letter-spacing: 60px;
 }
 
@@ -171,7 +172,11 @@ body, .header, .main, .footer {
 	flex-grow: 1;
 }
 
-.card-1, .card-2, .card-3 {
+.card-link {
+	text-decoration: none;
+}
+
+.card {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -180,15 +185,15 @@ body, .header, .main, .footer {
 	background-position: center;
 }
 
-.card-1 {
+.film {
 	background-image: url(../images/card-lot-01.jpg);
 }
 
-.card-2 {
+.book {
 	background-image: url(../images/card-lot-02.jpg);
 }
 
-.card-3 {
+.picture {
 	background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -207,6 +212,7 @@ body, .header, .main, .footer {
 	position: relative;
 	align-self: end;
 	margin: auto 40px 50px 40px;
+	text-decoration: none;
 	font-size: 20px;
 	color: white;
 	z-index: 1;
