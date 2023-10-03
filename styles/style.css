@@ -277,10 +277,6 @@ body, .header, .main, .footer {
 	max-width: 885px;
 }
 
-.about__text-paragraph {
-
-}
-
 .footer {
 	display: flex;
 	margin-top: 88px;
