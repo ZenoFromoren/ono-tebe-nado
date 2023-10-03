@@ -115,17 +115,22 @@ body, .header, .main, .footer {
 	margin-top: 127px;
 	margin-left: 422px;
 	align-items: center;
-	gap: 80px;
+	flex-wrap: wrap;
 }
 
 .cover__description-text, .bet-button {
 	text-transform: uppercase;
+	margin-bottom: 50px;
 	color: white;
 	font-weight: normal;
 	font-size: 22px;
 	word-spacing: 17px;
 	z-index: 1;
 	white-space: nowrap;
+}
+
+.cover__description-text {
+	margin-right: 80px;
 }
 
 .cover__description-text-different-ws {
@@ -253,6 +258,10 @@ body, .header, .main, .footer {
 	max-height: 114px;
 }
 
+.column-about {
+	justify-self: left;
+}
+
 .about__title {
 	text-transform: uppercase;
 	font-size: 40px;
@@ -266,6 +275,10 @@ body, .header, .main, .footer {
 	gap: 25px;
 	font-size: 20px;
 	max-width: 885px;
+}
+
+.about__text-paragraph {
+
 }
 
 .footer {
